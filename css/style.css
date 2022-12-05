@@ -1,0 +1,80 @@
+/* universel selecter */
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    outline: 0;
+}
+/* name/ element selecter */
+body{
+    background-image: linear-gradient(to right,rgb(17, 110, 48), rgb(127, 80, 255));
+    }
+img{
+width: 100px;
+}
+
+/* id selecter */
+#admin-box{
+width: 20%;
+background-color: rgb(3, 230, 41);
+text-align: center;
+margin:150px auto;
+padding: 20px;
+}
+/* grouping selecter */
+input, label{
+display: block;
+}
+input{
+    width: 80%;
+    margin: auto;
+padding: 10px;
+background-color: transparent;
+border: 2px solid rgb(0, 0, 0);
+}
+label{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+/* psudo element selecter */
+input::placeholder{
+    color: black;
+}
+/* decendent selecter */
+#admin-box h1{
+font-size: 35px;
+line-height: 35px;
+text-transform: uppercase;
+margin:  19px 0px;
+}
+/* attribute selecter */
+input[type="submit"]{
+    margin: 10px auto;
+    width: 50%;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: ease-in-out 0.3s;
+}
+
+/* psudo ciass selecter */
+input[type="submit"]:hover{
+    background-color: rgb(68, 67, 9);
+    color: rgb(143, 79, 129);
+    cursor: pointer;
+}
+p{
+    font-size: 17px;
+    line-height: 17px;
+    margin: 10px 0px;
+}
+p a{                                                   
+    text-decoration: none;
+    color: rgb(86, 173, 161);
+  margin-left: 19px;
+}
+ /* Gender selecter */
+label,select,option{
+    background-color: aqua;
+ border: 0px;
+}
